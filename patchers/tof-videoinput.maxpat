@@ -95,7 +95,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -146,7 +146,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.125490196078431, 0.258823529411765, 0.388235294117647, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-37",
@@ -229,7 +229,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -508,7 +508,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "0: HD Pro Webcam C920", "1: OBS Virtual Camera" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "device[1]",
+							"parameter_longname" : "device",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "device",
 							"parameter_type" : 1
@@ -785,7 +785,38 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-33" : [ "play[1]", "play", 0 ],
+			"obj-5" : [ "device", "device", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "tof-isbpatcher.js",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-isbpatcher.maxpat",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

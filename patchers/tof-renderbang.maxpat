@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1695.0, 394.0, 946.0, 886.0 ],
+		"rect" : [ 914.0, 384.0, 946.0, 886.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.125490196078431, 0.258823529411765, 0.388235294117647, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 9.0,
@@ -75,7 +75,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 170.154784999999947, 311.302246000000025, 29.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 18.0, 51.0, 17.0 ],
+					"presentation_rect" : [ 0.0, 17.0, 51.0, 17.0 ],
 					"text" : "RENDER",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -86,7 +86,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -104,7 +104,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 170.154784999999947, 141.0, 289.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 133.166663438081741, 18.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 133.0, 18.0 ],
 					"text" : "tof-renderbang",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -121,7 +121,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 319.654784999999947, 25.0, 576.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1.0, 133.166663438081741, 17.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 133.166663438081741, 17.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -135,7 +135,30 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "tof-isbpatcher.js",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-isbpatcher.maxpat",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-renderbang.lua",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/code",
+				"patcherrelativepath" : "../code",
+				"type" : "Jlua",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

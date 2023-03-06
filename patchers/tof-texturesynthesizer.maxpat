@@ -536,7 +536,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "fm[1]",
+							"parameter_longname" : "fm",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_shortname" : "fm",
@@ -613,7 +613,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "h[1]",
+							"parameter_longname" : "h",
 							"parameter_shortname" : "h",
 							"parameter_type" : 3
 						}
@@ -644,7 +644,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "w[1]",
+							"parameter_longname" : "w",
 							"parameter_mmax" : 255.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "w",
@@ -674,7 +674,7 @@
 				"box" : 				{
 					"comment" : "Bias Modulation Texture",
 					"id" : "obj-49",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -738,7 +738,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "phase[1]",
+							"parameter_longname" : "phase",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "phase",
@@ -806,7 +806,7 @@
 							"parameter_initial" : [ 0.75 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "shape[1]",
+							"parameter_longname" : "shape",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "shape",
 							"parameter_type" : 0,
@@ -3505,7 +3505,7 @@
 				"box" : 				{
 					"comment" : "Frequency Modulation Texture",
 					"id" : "obj-82",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3593,7 +3593,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "angle[1]",
+							"parameter_longname" : "angle",
 							"parameter_mmax" : 180.0,
 							"parameter_mmin" : -180.0,
 							"parameter_shortname" : "angle",
@@ -5894,7 +5894,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "speed[1]",
+							"parameter_longname" : "speed",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
 							"parameter_shortname" : "speed",
@@ -6270,7 +6270,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "pm[1]",
+							"parameter_longname" : "pm",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_shortname" : "pm",
@@ -6292,7 +6292,7 @@
 				"box" : 				{
 					"comment" : "Phase Modulation Texture",
 					"id" : "obj-97",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -6305,7 +6305,7 @@
 				"box" : 				{
 					"comment" : "Texture Out",
 					"id" : "obj-33",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -6365,7 +6365,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "bm[1]",
+							"parameter_longname" : "bm",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "bm",
@@ -6434,7 +6434,7 @@
 							"parameter_initial" : [ 50.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "bias[1]",
+							"parameter_longname" : "bias",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "bias",
 							"parameter_type" : 0,
@@ -6501,7 +6501,7 @@
 							"parameter_initial" : [ 60.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "freq[1]",
+							"parameter_longname" : "freq",
 							"parameter_mmax" : 1020.0,
 							"parameter_shortname" : "freq",
 							"parameter_type" : 0,
@@ -6518,7 +6518,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.125490196078431, 0.258823529411765, 0.388235294117647, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-29",
@@ -6579,7 +6579,7 @@
 				"box" : 				{
 					"comment" : "Render Bang",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -6669,7 +6669,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "polarizer[1]",
+							"parameter_longname" : "polarizer",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "Morph",
@@ -7099,6 +7099,55 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-100" : [ "bias", "bias", 0 ],
+			"obj-101" : [ "freq", "freq", 0 ],
+			"obj-102" : [ "polarizer", "Morph", 0 ],
+			"obj-105" : [ "fm", "fm", 0 ],
+			"obj-16" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-30" : [ "angle", "angle", 0 ],
+			"obj-46" : [ "h", "h", 0 ],
+			"obj-47" : [ "w", "w", 0 ],
+			"obj-65" : [ "shape", "shape", 0 ],
+			"obj-71" : [ "phase", "phase", 0 ],
+			"obj-90" : [ "speed", "speed", 0 ],
+			"obj-95" : [ "pm", "pm", 0 ],
+			"obj-98" : [ "bm", "bm", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "tof-inputsubtitutetexture.maxpat",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-isbpatcher.js",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-isbpatcher.maxpat",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

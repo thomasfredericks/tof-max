@@ -10,7 +10,6 @@ To install, put the ```tof-max``` folder in Max's ```packages``` folder.
 * Texture : 			Blue, 		51A7F9
 * Messages/Strings : 	Green, 		00B14B
 * Bang : 				Black,  	000000
-* Render : 				Dark Blue,	204263
 * Number :				Purple,		B36AE2
 * List :				Orange,		E2A26A
 

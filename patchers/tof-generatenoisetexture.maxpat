@@ -149,7 +149,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-20",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -173,7 +173,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -196,7 +196,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.125490196078431, 0.258823529411765, 0.388235294117647, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-29",
@@ -276,7 +276,7 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "zoom[1]",
+							"parameter_longname" : "zoom",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "zoom",
 							"parameter_type" : 0,
@@ -418,9 +418,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 55.0, 66.0, 30.0 ],
+					"patching_rect" : [ 213.0, 55.0, 68.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.25, 16.5, 122.0, 18.0 ],
+					"presentation_rect" : [ -1.25, 16.5, 126.0, 18.0 ],
 					"text" : "tof-generatenoisetexture",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -634,7 +634,39 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-31" : [ "w", "w", 0 ],
+			"obj-32" : [ "h", "h", 0 ],
+			"obj-39" : [ "zoom", "zoom", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "tof-isbpatcher.js",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-isbpatcher.maxpat",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

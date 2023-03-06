@@ -435,7 +435,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.352941176470588, 0.352941176470588, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-29",
@@ -1271,14 +1271,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "tof-isbpatcher.js",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/javascript",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-isbpatcher.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/patchers",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

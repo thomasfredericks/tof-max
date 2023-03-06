@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 738.0, 326.0, 1419.0, 917.0 ],
+		"rect" : [ 795.0, 339.0, 1419.0, 917.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-30",
 					"maxclass" : "number",
-					"minimum" : 1.0,
+					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -574,7 +574,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.125490196078431, 0.258823529411765, 0.388235294117647, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-29",
@@ -623,11 +623,11 @@
 				"box" : 				{
 					"comment" : "Audio In",
 					"id" : "obj-20",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 14.0, 30.0, 30.0 ]
 				}
 
@@ -678,7 +678,7 @@
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "interpolate[1]",
+							"parameter_longname" : "interpolate",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "interpolate",
 							"parameter_type" : 2
@@ -834,7 +834,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "vs_audio2video_mode[2]",
+							"parameter_longname" : "vs_audio2video_mode",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "vs_audio2video_mode",
 							"parameter_type" : 1,
@@ -870,7 +870,7 @@
 				"box" : 				{
 					"comment" : "Render Bang",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -883,7 +883,7 @@
 				"box" : 				{
 					"comment" : "Texture Out",
 					"id" : "obj-130",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1348,6 +1348,45 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-13" : [ "gain[1]", "gain", 0 ],
+			"obj-16" : [ "interpolate", "interpolate", 0 ],
+			"obj-2" : [ "vs_audio2video_mode", "vs_audio2video_mode", 0 ],
+			"obj-30" : [ "downsample", "downsample", 0 ],
+			"obj-31" : [ "w[1]", "w", 0 ],
+			"obj-32" : [ "h[1]", "h", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "mc.jit.catch~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "tof-isbpatcher.js",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-isbpatcher.maxpat",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
