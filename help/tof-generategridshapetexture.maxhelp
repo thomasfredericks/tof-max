@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1097.0, 179.0, 961.0, 1051.0 ],
+		"rect" : [ 334.0, 87.0, 961.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -121,13 +121,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "tof-texture3dgridshape.maxpat",
-					"numinlets" : 2,
+					"name" : "tof-generategridshapetexture.maxpat",
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 38.5, 720.0, 324.5, 131.030966000000035 ],
-					"varname" : "tof-texture3dgridshape[1]",
+					"varname" : "tof-generategridshapetexture",
 					"viewvisibility" : 1
 				}
 
@@ -148,7 +148,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 38.5, 522.0, 169.5, 131.030966000000035 ],
+					"patching_rect" : [ 344.0, 558.0, 169.5, 131.030966000000035 ],
 					"varname" : "tof-texturemath[1]",
 					"viewvisibility" : 1
 				}
@@ -172,6 +172,27 @@
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 38.5, 877.0, 164.0, 108.0 ],
 					"varname" : "tof-texturebloom[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-8",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "tof-renderbang.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 38.5, 618.030966000000035, 133.166663438081741, 34.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -217,6 +238,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 2 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -744,193 +772,200 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bfgenerator_UI.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data-handler-L.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "distorted_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "exact_menu.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_fbm_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_hetero_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_hybrid_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_multi_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_rigid_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "init[1]_20230306.maxsnap",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.mo.time.mxe64",
-				"type" : "mx64"
+				"name" : "jit.mo.time.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "lo_hi_UI_control.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoi_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoi_crackle_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoi_id_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoi_smooth_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoise_controls.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-generategridshapetexture.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-inputsubtitutetexture.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-isbpatcher.js",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-isbpatcher.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tof-texture3dgridshape.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/patchers",
+				"name" : "tof-renderbang.lua",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/code",
+				"patcherrelativepath" : "../code",
+				"type" : "Jlua",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-renderbang.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-texturebloom.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-texturemath.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof.texture3dgridshape.maxhelp.maxsnap",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
+				"bootpath" : "~/Library/CloudStorage/OneDrive-Personnel/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Library/CloudStorage/OneDrive-Personnel/Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-datatexconvert.js",
-				"bootpath" : "C74:/packages/vizzie/code",
+				"bootpath" : "C74:/packages/Vizzie/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-global.js",
-				"bootpath" : "C74:/packages/vizzie/code",
+				"bootpath" : "C74:/packages/Vizzie/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.bfgener8r.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers",
+				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-blackframe.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-object.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-outputdim.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -950,14 +985,14 @@
 					"parameter_values" : 					{
 						"Amount" : 0.0,
 						"Amount[1]" : 0.0,
-						"Bcolorize" : 0.598425196850393,
+						"Bcolorize" : 0.0,
 						"Bcolorize[1]" : 2.0,
 						"Colorize" : 1.0,
-						"Colorize[1]" : 0.0,
+						"Colorize[1]" : 1.0,
 						"Distortion" : 1.0,
 						"Distortion[1]" : 1.0,
 						"Function" : 4.0,
-						"Function[1]" : 9.0,
+						"Function[1]" : 2.0,
 						"Gain" : 1.5,
 						"Gain[10]" : 0.0,
 						"Gain[11]" : 0.0,
@@ -968,7 +1003,7 @@
 						"Gain[7]" : 0.0,
 						"Gain[8]" : 0.0,
 						"Gain[9]" : 0.0,
-						"Gcolorize" : 0.377952755905512,
+						"Gcolorize" : 0.0,
 						"Gcolorize[1]" : 2.0,
 						"H value" : 0.25,
 						"H value[10]" : 0.25,
@@ -978,7 +1013,7 @@
 						"H value[5]" : 0.25,
 						"H value[6]" : 0.25,
 						"H value[7]" : 0.5,
-						"H value[8]" : 5.984251968503941,
+						"H value[8]" : 1.5,
 						"H value[9]" : 0.5,
 						"Jitter" : 0.5,
 						"Jitter[10]" : 0.5,
@@ -986,7 +1021,7 @@
 						"Jitter[12]" : 0.5,
 						"Jitter[13]" : 0.0,
 						"Jitter[5]" : 0.5,
-						"Jitter[6]" : 0.842519685039369,
+						"Jitter[6]" : 0.5,
 						"Jitter[7]" : 0.5,
 						"Jitter[8]" : 0.5,
 						"Jitter[9]" : 0.0,
@@ -998,7 +1033,7 @@
 						"Lacunarity[5]" : 2.0,
 						"Lacunarity[6]" : 3.0,
 						"Lacunarity[7]" : 2.0,
-						"Lacunarity[8]" : 1.877952755905511,
+						"Lacunarity[8]" : 1.5,
 						"Lacunarity[9]" : 2.0,
 						"Offset" : 0.9,
 						"Offset[10]" : 0.25,
@@ -1008,14 +1043,14 @@
 						"Offset[5]" : 0.9,
 						"Offset[6]" : 0.25,
 						"Offset[7]" : 0.0,
-						"Offset[8]" : 8.0,
+						"Offset[8]" : 1.5,
 						"Offset[9]" : 0.05,
-						"Rcolorize" : 0.913385826771655,
+						"Rcolorize" : 2.0,
 						"Rcolorize[1]" : 2.0,
 						"Shading" : 0.5,
 						"Shading[1]" : 0.5,
 						"Smoothing" : 16.0,
-						"Smoothing[1]" : 2.645669291338606,
+						"Smoothing[1]" : 16.0,
 						"X crackle" : 8.0,
 						"X crackle[1]" : 8.0,
 						"Y crackle" : 2.0,
@@ -1024,26 +1059,26 @@
 						"Z crackle[1]" : 0.5,
 						"a[1]" : 0.826771653543307,
 						"alpha[1]" : 0.0,
-						"amount[1]" : 0.866141732283459,
+						"amount[1]" : 1.259842519685039,
 						"b[1]" : 1.0,
-						"bloom[1]" : 1.496062992125984,
-						"blur[1]" : 3.275590551181104,
+						"bloom[1]" : 0.0,
+						"blur[1]" : 1.0,
 						"c[1]" : 0.0,
-						"h" : 200.0,
+						"h" : 100.0,
 						"mode[1]" : 0.0,
 						"pointsize" : 10.0,
-						"rotx[1]" : 89.291338582677326,
-						"roty[1]" : -35.433070866141719,
-						"rotz[1]" : 89.291338582677326,
-						"scale[1]" : 3.685826771653528,
+						"rotx[1]" : 0.0,
+						"roty[1]" : 0.0,
+						"rotz[1]" : 0.0,
+						"scale[1]" : 4.551478698923831,
 						"shape[1]" : 2.0,
-						"threshold[1]" : 0.389763779527559,
-						"w" : 200.0,
+						"threshold[1]" : 0.5,
+						"w" : 100.0,
 						"wire[1]" : 0.0,
 						"Speed" : 0.31496062992126,
 						"Speed[1]" : 0.440944881889764,
 						"Zoom hi" : 1.0,
-						"Zoom hi[1]" : -1.385826771653512,
+						"Zoom hi[1]" : 16.0,
 						"Zoom lo" : 1.653543307086615,
 						"Zoom lo[1]" : 2.0,
 						"blob" : 						{
@@ -1060,13 +1095,13 @@
 			}
 ,
 			"snapshotlist" : 			{
-				"current_snapshot" : 1,
+				"current_snapshot" : 0,
 				"entries" : [ 					{
 						"filetype" : "C74Snapshot",
 						"version" : 2,
 						"minorversion" : 0,
 						"name" : "init",
-						"origin" : "tof.texture3dgridshape.maxhelp",
+						"origin" : "tof-generategridshapetexture.maxhelp",
 						"type" : "patcher",
 						"subtype" : "Undefined",
 						"embed" : 1,
@@ -1149,18 +1184,21 @@
 									"Z crackle[1]" : 0.5,
 									"a[1]" : 0.826771653543307,
 									"alpha[1]" : 0.0,
-									"amount[1]" : 0.866141732283459,
+									"amount[1]" : 1.259842519685039,
 									"b[1]" : 1.0,
+									"bloom[1]" : 0.0,
+									"blur[1]" : 1.0,
 									"c[1]" : 0.0,
-									"h" : 200.0,
+									"h" : 100.0,
 									"mode[1]" : 0.0,
 									"pointsize" : 10.0,
-									"rotx[1]" : 39.685039370078698,
-									"roty[1]" : 49.606299212598685,
-									"rotz[1]" : 89.291338582677326,
-									"scale[1]" : 4.551478698923852,
+									"rotx[1]" : 0.0,
+									"roty[1]" : 0.0,
+									"rotz[1]" : 0.0,
+									"scale[1]" : 4.551478698923831,
 									"shape[1]" : 2.0,
-									"w" : 200.0,
+									"threshold[1]" : 0.5,
+									"w" : 100.0,
 									"wire[1]" : 0.0,
 									"Speed" : 0.31496062992126,
 									"Speed[1]" : 0.440944881889764,
@@ -1186,139 +1224,7 @@
 							"filename" : "tof.texture3dgridshape.maxhelp.maxsnap",
 							"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
 							"filepos" : -1,
-							"snapshotfileid" : "5a65a47eafc7fa17c6fd0ce62db3f573"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "init[1]",
-						"origin" : "tof.texture3dgridshape.maxhelp",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"snapshot" : 						{
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"Amount" : 0.0,
-									"Amount[1]" : 0.0,
-									"Bcolorize" : 0.598425196850393,
-									"Bcolorize[1]" : 2.0,
-									"Colorize" : 1.0,
-									"Colorize[1]" : 0.0,
-									"Distortion" : 1.0,
-									"Distortion[1]" : 1.0,
-									"Function" : 4.0,
-									"Function[1]" : 9.0,
-									"Gain" : 1.5,
-									"Gain[10]" : 0.0,
-									"Gain[11]" : 0.0,
-									"Gain[12]" : 0.0,
-									"Gain[13]" : 0.0,
-									"Gain[5]" : 1.5,
-									"Gain[6]" : 0.0,
-									"Gain[7]" : 0.0,
-									"Gain[8]" : 0.0,
-									"Gain[9]" : 0.0,
-									"Gcolorize" : 0.377952755905512,
-									"Gcolorize[1]" : 2.0,
-									"H value" : 0.25,
-									"H value[10]" : 0.25,
-									"H value[11]" : 0.5,
-									"H value[12]" : 1.5,
-									"H value[13]" : 0.5,
-									"H value[5]" : 0.25,
-									"H value[6]" : 0.25,
-									"H value[7]" : 0.5,
-									"H value[8]" : 5.984251968503941,
-									"H value[9]" : 0.5,
-									"Jitter" : 0.5,
-									"Jitter[10]" : 0.5,
-									"Jitter[11]" : 0.5,
-									"Jitter[12]" : 0.5,
-									"Jitter[13]" : 0.0,
-									"Jitter[5]" : 0.5,
-									"Jitter[6]" : 0.842519685039369,
-									"Jitter[7]" : 0.5,
-									"Jitter[8]" : 0.5,
-									"Jitter[9]" : 0.0,
-									"Lacunarity" : 2.0,
-									"Lacunarity[10]" : 3.0,
-									"Lacunarity[11]" : 2.0,
-									"Lacunarity[12]" : 1.5,
-									"Lacunarity[13]" : 2.0,
-									"Lacunarity[5]" : 2.0,
-									"Lacunarity[6]" : 3.0,
-									"Lacunarity[7]" : 2.0,
-									"Lacunarity[8]" : 1.877952755905511,
-									"Lacunarity[9]" : 2.0,
-									"Offset" : 0.9,
-									"Offset[10]" : 0.25,
-									"Offset[11]" : 0.0,
-									"Offset[12]" : 1.5,
-									"Offset[13]" : 0.05,
-									"Offset[5]" : 0.9,
-									"Offset[6]" : 0.25,
-									"Offset[7]" : 0.0,
-									"Offset[8]" : 8.0,
-									"Offset[9]" : 0.05,
-									"Rcolorize" : 0.913385826771655,
-									"Rcolorize[1]" : 2.0,
-									"Shading" : 0.5,
-									"Shading[1]" : 0.5,
-									"Smoothing" : 16.0,
-									"Smoothing[1]" : 2.645669291338606,
-									"X crackle" : 8.0,
-									"X crackle[1]" : 8.0,
-									"Y crackle" : 2.0,
-									"Y crackle[1]" : 2.0,
-									"Z crackle" : 0.5,
-									"Z crackle[1]" : 0.5,
-									"a[1]" : 0.826771653543307,
-									"alpha[1]" : 0.0,
-									"amount[1]" : 0.866141732283459,
-									"b[1]" : 1.0,
-									"bloom[1]" : 1.496062992125984,
-									"blur[1]" : 3.275590551181104,
-									"c[1]" : 0.0,
-									"h" : 200.0,
-									"mode[1]" : 0.0,
-									"pointsize" : 10.0,
-									"rotx[1]" : 89.291338582677326,
-									"roty[1]" : -35.433070866141719,
-									"rotz[1]" : 89.291338582677326,
-									"scale[1]" : 3.685826771653528,
-									"shape[1]" : 2.0,
-									"threshold[1]" : 0.389763779527559,
-									"w" : 200.0,
-									"wire[1]" : 0.0,
-									"Speed" : 0.31496062992126,
-									"Speed[1]" : 0.440944881889764,
-									"Zoom hi" : 1.0,
-									"Zoom hi[1]" : -1.385826771653512,
-									"Zoom lo" : 1.653543307086615,
-									"Zoom lo[1]" : 2.0,
-									"blob" : 									{
-										"textbutton[3]" : [ 1 ],
-										"textbutton[4]" : [ 1 ],
-										"Zoom range[2]" : [ 0 ],
-										"Zoom range[3]" : [ 1 ]
-									}
-
-								}
-
-							}
-
-						}
-,
-						"fileref" : 						{
-							"name" : "init[1]",
-							"filename" : "init[1]_20230306.maxsnap",
-							"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "d43885a9f827d097b819affcf2c2d9aa"
+							"snapshotfileid" : "f8a17c80a4d204822e8b9acdcd6f6d95"
 						}
 
 					}
