@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 541.0, 351.0, 1499.0, 939.0 ],
+		"rect" : [ 208.0, 252.0, 1058.0, 637.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -121,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1109.0, 430.0, 50.0, 22.0 ],
-					"text" : "1941a"
+					"text" : "1171a"
 				}
 
 			}
@@ -224,8 +224,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 264.0, 260.0, 132.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.5, 93.5, 50.0, 18.0 ],
-					"text" : "pointsize",
+					"presentation_rect" : [ 40.5, 93.5, 81.0, 18.0 ],
+					"text" : "width(wire/point)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1014,17 +1014,17 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1329.0, 21.083373999999992, 96.0, 22.0 ],
 					"restore" : 					{
-						"amount" : [ 0.960629921259837 ],
-						"h" : [ 200.0 ],
-						"mode" : [ 0.0 ],
-						"pointsize" : [ 10.0 ],
-						"rotx" : [ 39.685039370078698 ],
-						"roty" : [ 49.606299212598685 ],
+						"amount" : [ 0.0 ],
+						"h" : [ 30.0 ],
+						"mode" : [ 1.0 ],
+						"rotx" : [ -76.535433070866262 ],
+						"roty" : [ 137.480314960629983 ],
 						"rotz" : [ 89.291338582677326 ],
-						"scale" : [ 0.411755409526169 ],
+						"scale" : [ 1.000000000000013 ],
 						"shape" : [ 2.0 ],
-						"w" : [ 200.0 ],
-						"wire" : [ 0.0 ]
+						"w" : [ 30.0 ],
+						"width" : [ 1.0 ],
+						"wire" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1045,22 +1045,22 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 952.0, 920.5, 42.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.5, 93.5, 35.0, 17.0 ],
+					"presentation_rect" : [ 117.5, 93.5, 35.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 10 ],
+							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "pointsize",
+							"parameter_longname" : "width",
 							"parameter_mmax" : 100.0,
-							"parameter_shortname" : "pointsize",
+							"parameter_shortname" : "width",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "pointsize"
+					"varname" : "width"
 				}
 
 			}
@@ -1148,9 +1148,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 714.5, 453.5, 40.0, 18.0 ],
+					"patching_rect" : [ 714.5, 453.5, 40.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.5, 37.5, 43.0, 18.0 ],
+					"presentation_rect" : [ 97.5, 37.5, 43.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 10 ],
@@ -1180,9 +1180,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 672.5, 453.5, 40.0, 18.0 ],
+					"patching_rect" : [ 672.5, 453.5, 40.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.5, 37.5, 38.0, 18.0 ],
+					"presentation_rect" : [ 40.5, 37.5, 38.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 10 ],
