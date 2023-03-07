@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -125,7 +125,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "h",
+							"parameter_longname" : "h[3]",
 							"parameter_shortname" : "h",
 							"parameter_type" : 3
 						}
@@ -156,7 +156,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "w",
+							"parameter_longname" : "w[3]",
 							"parameter_mmax" : 255.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "w",
@@ -198,7 +198,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -210,11 +210,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 44.0, 108.0, 30.0, 30.0 ]
 				}
 
@@ -384,7 +384,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "a",
+							"parameter_longname" : "a[2]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "a",
 							"parameter_type" : 0,
@@ -513,7 +513,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "b",
+							"parameter_longname" : "b[2]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "b",
 							"parameter_type" : 0,
@@ -574,7 +574,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "g",
+							"parameter_longname" : "g[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "g",
 							"parameter_type" : 0,
@@ -635,7 +635,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "r",
+							"parameter_longname" : "r[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "r",
 							"parameter_type" : 0,
@@ -679,8 +679,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 336.654784999999947, 47.0, 289.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 17.0, 110.5, 18.0 ],
-					"text" : "tof-gl.gen.color",
+					"presentation_rect" : [ 0.0, 17.0, 152.5, 18.0 ],
+					"text" : "tof-generatecolortexture[1]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -726,7 +726,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1249,42 +1249,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-10" : [ "b", "b", 0 ],
-			"obj-31" : [ "w", "w", 0 ],
-			"obj-32" : [ "h", "h", 0 ],
-			"obj-34" : [ "r", "r", 0 ],
-			"obj-8" : [ "a", "a", 0 ],
-			"obj-9" : [ "g", "g", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "tof-isbpatcher.js",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tof-isbpatcher.maxpat",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
