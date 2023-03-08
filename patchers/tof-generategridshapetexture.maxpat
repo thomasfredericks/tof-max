@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -553,13 +553,14 @@
 					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 9.0,
 					"id" : "obj-88",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.154784999999947, 228.302246000000025, 29.0, 17.0 ],
+					"patching_rect" : [ 488.154784999999947, 228.302246000000025, 29.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 273.0, 0.030966000000035, 51.0, 17.0 ],
-					"text" : "GEO",
+					"text" : "DISPLACE",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1122,9 +1123,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 714.5, 453.5, 40.0, 17.0 ],
+					"patching_rect" : [ 714.5, 453.5, 40.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.5, 37.5, 43.0, 17.0 ],
+					"presentation_rect" : [ 97.5, 37.5, 43.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 10 ],
@@ -1154,9 +1155,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 672.5, 453.5, 40.0, 17.0 ],
+					"patching_rect" : [ 672.5, 453.5, 40.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.5, 37.5, 38.0, 17.0 ],
+					"presentation_rect" : [ 40.5, 37.5, 38.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 10 ],
@@ -1266,8 +1267,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1149.5, 875.929932000000008, 304.0, 22.0 ],
-					"text" : "jit.gl.shader @name #0.vtf @file tof-displacemesh.jxs    "
+					"patching_rect" : [ 1149.5, 875.929932000000008, 354.0, 22.0 ],
+					"text" : "jit.gl.shader @name #0.vtf @file tof-generategridshapetexture.jxs"
 				}
 
 			}
@@ -1886,15 +1887,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "tof-isbpatcher.js",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-isbpatcher.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

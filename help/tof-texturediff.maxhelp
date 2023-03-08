@@ -281,13 +281,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "tof-texturegrab.maxpat",
+					"name" : "tof-texturehold.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 474.0, 382.0, 162.727272868156433, 121.5 ],
-					"varname" : "tof-texturegrab[1]",
+					"varname" : "tof-texturehold[1]",
 					"viewvisibility" : 1
 				}
 
@@ -468,7 +468,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tof-texturegrab.maxpat",
+				"name" : "tof-texturehold.maxpat",
 				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/TofMax/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

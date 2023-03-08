@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 334.0, 87.0, 961.0, 929.0 ],
+		"rect" : [ 867.0, 166.0, 1395.0, 1235.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -148,7 +148,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 344.0, 558.0, 169.5, 131.030966000000035 ],
+					"patching_rect" : [ 428.5, 532.0, 169.5, 131.030966000000035 ],
 					"varname" : "tof-texturemath[1]",
 					"viewvisibility" : 1
 				}
@@ -772,200 +772,200 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bfgenerator_UI.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data-handler-L.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "distorted_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "exact_menu.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_fbm_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_hetero_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_hybrid_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_multi_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fractal_rigid_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.mo.time.mxo",
-				"type" : "iLaX"
+				"name" : "jit.mo.time.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "lo_hi_UI_control.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoi_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoi_crackle_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoi_id_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoi_smooth_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noise_voronoise_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/bfg",
+				"bootpath" : "C74:/packages/vizzie/patchers/bfg",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-generategridshapetexture.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/OneDrive/Documents/Max/tof-max wip/tof-mesh and particles",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-inputsubtitutetexture.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-isbpatcher.js",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-isbpatcher.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-renderbang.lua",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/code",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/code",
 				"type" : "Jlua",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-renderbang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-texturebloom.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof-texturemath.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/tof-max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tof.texture3dgridshape.maxhelp.maxsnap",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-Personnel/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Library/CloudStorage/OneDrive-Personnel/Documents/Max 8/Snapshots",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-datatexconvert.js",
-				"bootpath" : "C74:/packages/Vizzie/code",
+				"bootpath" : "C74:/packages/vizzie/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vizzie-global.js",
-				"bootpath" : "C74:/packages/Vizzie/code",
+				"bootpath" : "C74:/packages/vizzie/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vz.bfgener8r.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
+				"bootpath" : "C74:/packages/vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-blackframe.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-object.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vzgl-outputdim.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1225,6 +1225,24 @@
 							"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
 							"filepos" : -1,
 							"snapshotfileid" : "f8a17c80a4d204822e8b9acdcd6f6d95"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "init",
+						"origin" : "tof-generategridshapetexture.maxhelp",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "init",
+							"filename" : "tof.texture3dgridshape.maxhelp.maxsnap",
+							"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "50a7efc26d12418b25125433121ca4ee"
 						}
 
 					}
