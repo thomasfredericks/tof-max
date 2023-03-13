@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -214,7 +214,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 44.0, 108.0, 30.0, 30.0 ]
 				}
 
@@ -240,9 +240,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 352.666666666666629, 84.0, 53.000000000000028, 17.5 ],
+					"patching_rect" : [ 352.666666666666629, 108.0, 53.000000000000028, 17.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.5, 112.0, 91.0, 20.0 ]
+					"presentation_rect" : [ 11.5, 112.0, 134.0, 20.0 ],
+					"varname" : "ubutton"
 				}
 
 			}
@@ -332,7 +333,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 450.0, 476.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.5, 112.0, 85.0, 20.0 ],
+					"presentation_rect" : [ 11.25, 112.0, 128.25, 20.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -384,7 +385,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "a[2]",
+							"parameter_longname" : "a[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "a",
 							"parameter_type" : 0,
@@ -453,22 +454,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 364.0, 132.726723360343954, 46.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.75, 112.0, 48.25, 20.0 ],
-					"text" : "picker",
-					"varname" : "textbutton"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activedialcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"activefgdialcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"activeneedlecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -513,7 +498,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "b[2]",
+							"parameter_longname" : "b[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "b",
 							"parameter_type" : 0,
@@ -726,7 +711,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1070,13 +1055,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -1084,7 +1062,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -1112,7 +1090,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-23", 1 ]
 				}
 
