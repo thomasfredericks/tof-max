@@ -95,9 +95,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 979.0, 81.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"bloom" : [ 1.496062992125984 ],
-						"blur" : [ 1.0 ],
-						"threshold" : [ 0.389763779527559 ]
+						"bloom" : [ 0.845022181524032 ],
+						"threshold" : [ 0.204724409448819 ]
 					}
 ,
 					"text" : "autopattr",
@@ -129,7 +128,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1107.5, 306.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 36.984516999999983, 41.0, 48.0 ],
+					"presentation_rect" : [ 83.0, 36.984516999999983, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"activefgdialcolor" : 						{
 							"expression" : ""
@@ -147,7 +146,7 @@
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "threshold[4]",
+							"parameter_longname" : "threshold[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "threshold",
 							"parameter_type" : 0,
@@ -173,7 +172,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 747.5, 349.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 36.984516999999983, 41.0, 48.0 ],
+					"presentation_rect" : [ 15.0, 36.984516999999983, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"activefgdialcolor" : 						{
 							"expression" : ""
@@ -188,10 +187,11 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_exponent" : 4.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "bloom[4]",
+							"parameter_longname" : "bloom[1]",
 							"parameter_mmax" : 10.0,
 							"parameter_shortname" : "bloom",
 							"parameter_type" : 0,
@@ -202,50 +202,6 @@
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "bloom"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activefgdialcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"activeneedlecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-39",
-					"maxclass" : "live.dial",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 656.0, 372.0, 41.0, 48.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 36.984516999999983, 41.0, 48.0 ],
-					"saved_attribute_attributes" : 					{
-						"activefgdialcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activeneedlecolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
-						"valueof" : 						{
-							"parameter_initial" : [ 1 ],
-							"parameter_initial_enable" : 1,
-							"parameter_linknames" : 1,
-							"parameter_longname" : "blur[4]",
-							"parameter_mmax" : 4.0,
-							"parameter_shortname" : "blur",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
-						}
-
-					}
-,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "blur"
 				}
 
 			}
@@ -301,7 +257,7 @@
 					"patching_rect" : [ 567.0, 60.5, 62.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 18.0, 136.5, 18.0 ],
-					"text" : "tof-texturebloom",
+					"text" : "tof-texturebloom[1]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -317,7 +273,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 298.654784999999947, 24.0, 576.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 18.0, 164.0, 17.0 ],
+					"presentation_rect" : [ 0.0, 18.0, 136.5, 17.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -408,8 +364,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 855.0, 388.0, 239.0, 23.0 ],
-					"text" : "jit.gl.pass #0-node @fxname bloom "
+					"patching_rect" : [ 855.0, 388.0, 260.0, 23.0 ],
+					"text" : "jit.gl.pass #0-node @fxname bloom-hq"
 				}
 
 			}
@@ -423,19 +379,6 @@
 					"patching_rect" : [ 938.0, 339.0, 75.0, 22.0 ],
 					"text" : "threshold $1",
 					"varname" : "attrui[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 691.0, 261.0, 80.0, 22.0 ],
-					"text" : "blur_width $1",
-					"varname" : "attrui[1]"
 				}
 
 			}
@@ -476,7 +419,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 782.386206393390694, 33.726723360343954, 44.0, 9.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.969033999999965, 164.0, 60.030966000000035 ],
+					"presentation_rect" : [ 0.0, 30.969033999999965, 136.5, 60.030966000000035 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -528,13 +471,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -566,13 +502,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-39", 0 ]
 				}
 
 			}
