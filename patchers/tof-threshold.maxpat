@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1221.0, 313.0, 946.0, 886.0 ],
+		"rect" : [ 102.0, 87.0, 1009.0, 577.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 319.654784999999947, 600.0, 64.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 64.030966476837193, 51.0, 17.0 ],
+					"presentation_rect" : [ 59.5, 64.030966476837193, 51.0, 17.0 ],
 					"text" : "<",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : "<",
@@ -78,7 +78,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 182.0, 600.0, 64.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.5, 64.030966476837193, 51.0, 17.0 ],
+					"presentation_rect" : [ 0.0, 64.030966476837193, 51.0, 17.0 ],
 					"text" : ">=",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"texton" : ">=",
@@ -110,7 +110,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 542.0, 790.5, 30.0, 30.0 ]
+					"patching_rect" : [ 325.0, 774.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -132,7 +132,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "threshold[2]",
+							"parameter_longname" : "threshold[1]",
 							"parameter_shortname" : "threshold",
 							"parameter_type" : 3
 						}
@@ -221,7 +221,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 790.5, 30.0, 30.0 ]
+					"patching_rect" : [ 182.0, 774.5, 30.0, 30.0 ]
 				}
 
 			}
