@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -186,7 +186,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.188405797101449, 0.405797101449275, 0, 0.0, 0.434782608695652, 0.239130434782609, 0, 0.0, 1.0, 1.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.347826086956522, 0.753623188405797, 0, 0.0, 1.0, 1.0, 0, 0.0 ],
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"clicksustain" : 0,
 					"domain" : 1.0,
@@ -195,14 +195,14 @@
 					"gridstep_y" : 2.5,
 					"id" : "obj-20",
 					"legend" : 0,
-					"linecolor" : [ 0.701960784313725, 0.415686274509804, 0.886274509803922, 1.0 ],
+					"linecolor" : [ 0.945098039215686, 0.945098039215686, 0.945098039215686, 1.0 ],
 					"maxclass" : "function",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 342.0, 521.0, 100.0, 100.0 ],
+					"patching_rect" : [ 325.0, 515.0, 100.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 34.0, 150.0, 150.0 ],
 					"saved_attribute_attributes" : 					{
@@ -228,7 +228,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 610.235575666666705, 354.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.188405797101449, 0.405797101449275, 0, 0.0, 0.434782608695652, 0.239130434782609, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+						"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.347826086956522, 0.753623188405797, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
 					}
 ,
 					"text" : "autopattr",
@@ -283,7 +283,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -295,7 +295,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -454,7 +454,38 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-20" : [ "function[1]", "function", 0 ],
+			"obj-65" : [ "reset", "clear", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "tof-isbpatcher.js",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-isbpatcher.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
