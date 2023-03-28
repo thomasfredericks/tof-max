@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 149.0, 507.0, 1104.0, 610.0 ],
+		"rect" : [ 1010.0, 333.0, 1104.0, 610.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -126,7 +126,6 @@
 			"obj-3::obj-106" : [ "scale[1]", "scale", 0 ],
 			"obj-3::obj-107" : [ "rotz[1]", "rotz", 0 ],
 			"obj-3::obj-17" : [ "smooth_shading", "smooth_shading", 0 ],
-			"obj-3::obj-24" : [ "animenable", "animenable", 0 ],
 			"obj-3::obj-32" : [ "lighting_enable", "lighting_enable", 0 ],
 			"obj-3::obj-35" : [ "animrate", "number", 0 ],
 			"obj-3::obj-41" : [ "file", "file", 0 ],
@@ -164,16 +163,6 @@
 					"parameter_unitstyle" : 10
 				}
 ,
-				"obj-3::obj-24" : 				{
-					"parameter_invisible" : 0,
-					"parameter_linknames" : 1,
-					"parameter_longname" : "animenable",
-					"parameter_modmode" : 0,
-					"parameter_shortname" : "animenable",
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-,
 				"obj-3::obj-32" : 				{
 					"parameter_invisible" : 0,
 					"parameter_longname" : "lighting_enable",
@@ -206,6 +195,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "tof-3dmodeltexture.maxhelp.maxsnap",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "tof-3dmodeltexture.maxpat",
 				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -234,7 +230,83 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"snapshot" : 		{
+			"filetype" : "C74Snapshot",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
+			"subtype" : "Undefined",
+			"embed" : 1,
+			"snapshot" : 			{
+				"valuedictionary" : 				{
+					"parameter_values" : 					{
+						"animenable" : 0.0,
+						"lighting_enable" : 0.0,
+						"rotx[1]" : 0.0,
+						"roty[1]" : 90.0,
+						"rotz[1]" : 0.0,
+						"scale[1]" : 3.549370078740168,
+						"smooth_shading" : 1.0,
+						"blob" : 						{
+							"animrate" : [ 1.0 ],
+							"file" : [ "jitthecat.dae" ]
+						}
+
+					}
+
+				}
+
+			}
+,
+			"snapshotlist" : 			{
+				"current_snapshot" : 0,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "init",
+						"origin" : "tof-3dmodeltexture.maxhelp",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"animenable" : 0.0,
+									"lighting_enable" : 0.0,
+									"rotx[1]" : 0.0,
+									"roty[1]" : 90.0,
+									"rotz[1]" : 0.0,
+									"scale[1]" : 3.549370078740168,
+									"smooth_shading" : 1.0,
+									"blob" : 									{
+										"animrate" : [ 1.0 ],
+										"file" : [ "jitthecat.dae" ]
+									}
+
+								}
+
+							}
+
+						}
+,
+						"fileref" : 						{
+							"name" : "init",
+							"filename" : "tof-3dmodeltexture.maxhelp.maxsnap",
+							"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "7967d4c53823e74bc9bccf38ffbc38b4"
+						}
+
+					}
+ ]
+			}
+
+		}
+
 	}
 
 }
