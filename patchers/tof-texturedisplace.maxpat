@@ -3148,14 +3148,14 @@
 					"patching_rect" : [ 654.0, 76.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"am" : [ 0.0 ],
-						"angle" : [ 45.354330708661365 ],
+						"angle" : [ 0.0 ],
 						"bim" : [ 0.0 ],
 						"mode" : [ 0.0 ],
-						"scale" : [ 0.5 ],
+						"scale" : [ 1.0 ],
 						"sm" : [ 0.0 ],
-						"x" : [ -0.409448818897637 ],
+						"x" : [ 0.0 ],
 						"xm" : [ 0.0 ],
-						"y" : [ 0.362204724409448 ],
+						"y" : [ 0.0 ],
 						"ym" : [ 0.0 ]
 					}
 ,
@@ -3323,7 +3323,7 @@
 					"patching_rect" : [ 56.5, 76.0, 245.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 17.0, 179.5, 18.0 ],
-					"text" : "tof-texturedisplace[2]",
+					"text" : "tof-texturedisplace[1]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
