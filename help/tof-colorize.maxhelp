@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 656.0, 513.0, 1040.0, 674.0 ],
+		"rect" : [ 1192.0, 498.0, 1040.0, 674.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -102,7 +102,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 287.0, 390.0, 136.5, 108.0 ],
+					"patching_rect" : [ 287.0, 393.0, 188.5, 107.0 ],
 					"varname" : "tof-colorize[1]",
 					"viewvisibility" : 1
 				}
@@ -124,7 +124,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 287.0, 179.0, 290.242905597222034, 165.5 ],
+					"patching_rect" : [ 287.0, 167.0, 290.242905597222034, 165.5 ],
 					"varname" : "tof-texturesynthesizer[1]",
 					"viewvisibility" : 1
 				}
@@ -146,7 +146,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 126.0, 133.166663438081741, 34.0 ],
+					"patching_rect" : [ 287.0, 75.0, 133.166663438081741, 34.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -207,6 +207,7 @@
 			"obj-10::obj-95" : [ "pm[1]", "pm", 0 ],
 			"obj-10::obj-98" : [ "bm[1]", "bm", 0 ],
 			"obj-6::obj-10" : [ "saturation[1]", "saturation", 0 ],
+			"obj-6::obj-14" : [ "multiplier", "multiplier", 0 ],
 			"obj-6::obj-2" : [ "offset", "offset", 0 ],
 			"obj-6::obj-40" : [ "range", "range", 0 ],
 			"parameterbanks" : 			{
@@ -264,7 +265,14 @@
 				}
 ,
 				"obj-6::obj-10" : 				{
-					"parameter_longname" : "saturation[1]"
+					"parameter_longname" : "saturation[1]",
+					"parameter_range" : [ 0.0, 3.0 ]
+				}
+,
+				"obj-6::obj-14" : 				{
+					"parameter_longname" : "multiplier",
+					"parameter_range" : [ 0.0, 4.0 ],
+					"parameter_shortname" : "multiplier"
 				}
 ,
 				"obj-6::obj-2" : 				{
@@ -277,7 +285,7 @@
 				"obj-6::obj-40" : 				{
 					"parameter_initial" : 1,
 					"parameter_longname" : "range",
-					"parameter_range" : [ 0.0, 2.0 ],
+					"parameter_range" : [ 0.01, 1.0 ],
 					"parameter_shortname" : "range"
 				}
 
