@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1192.0, 498.0, 1040.0, 674.0 ],
+		"rect" : [ 801.0, 537.0, 1040.0, 674.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -271,7 +271,7 @@
 ,
 				"obj-6::obj-14" : 				{
 					"parameter_longname" : "multiplier",
-					"parameter_range" : [ 0.0, 4.0 ],
+					"parameter_range" : [ 1.0, 4.0 ],
 					"parameter_shortname" : "multiplier"
 				}
 ,

@@ -83,6 +83,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "multiplier",
 							"parameter_mmax" : 4.0,
+							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "multiplier",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1381,9 +1382,9 @@
 					"patching_rect" : [ 318.0, 64.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"multiplier" : [ 4.0 ],
-						"offset" : [ 1.0 ],
-						"range" : [ 1.0 ],
-						"saturation" : [ 1.062992125984251 ]
+						"offset" : [ 0.488188976377954 ],
+						"range" : [ 0.610236220472442 ],
+						"saturation" : [ 2.716535433070867 ]
 					}
 ,
 					"text" : "autopattr",
