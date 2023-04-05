@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 331.0, 202.0, 1147.0, 985.0 ],
+		"rect" : [ 283.0, 170.0, 915.0, 691.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -229,7 +229,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "saw", "tri", "sine", "sq" ],
-							"parameter_longname" : "live.menu[2]",
+							"parameter_longname" : "live.menu[1]",
 							"parameter_mmax" : 3,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
@@ -536,7 +536,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "fm[1]",
+							"parameter_longname" : "fm",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_shortname" : "fm",
@@ -613,7 +613,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "h[1]",
+							"parameter_longname" : "number[7]",
 							"parameter_shortname" : "h",
 							"parameter_type" : 3
 						}
@@ -644,7 +644,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "w[1]",
+							"parameter_longname" : "number[5]",
 							"parameter_mmax" : 255.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "w",
@@ -738,7 +738,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "phase[1]",
+							"parameter_longname" : "phase",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "phase",
@@ -806,9 +806,9 @@
 							"parameter_initial" : [ 0.75 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "shape[1]",
+							"parameter_longname" : "gradient",
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "shape",
+							"parameter_shortname" : "gradient",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -882,7 +882,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1027,7 +1027,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2117,7 +2117,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2953,7 +2953,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3303,7 +3303,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3523,18 +3523,18 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1739.423750902778011, 622.250082088325485, 56.0, 22.0 ],
 					"restore" : 					{
-						"angle" : [ 0.0 ],
-						"bias" : [ 50.0 ],
-						"bm" : [ 0.346456692913385 ],
-						"fm" : [ 0.0 ],
-						"freq" : [ 5.091490636470643 ],
-						"h" : [ 900 ],
-						"phase" : [ 0.0 ],
-						"pm" : [ 0.141732283464563 ],
-						"polarizer" : [ 0.0 ],
-						"shape" : [ 0.48228346456693 ],
-						"speed" : [ 0.0 ],
-						"w" : [ 1600 ]
+						"angle" : [ -76.535433070866191 ],
+						"bias" : [ 38.582677165354298 ],
+						"bm" : [ 1.0 ],
+						"fm" : [ 2.0 ],
+						"freq" : [ 9.709065435429105 ],
+						"h" : [ 1024 ],
+						"morph" : [ 0.0 ],
+						"phase" : [ -1.0 ],
+						"pm" : [ -0.456692913385822 ],
+						"shape" : [ 0.4999 ],
+						"speed" : [ 1.259842519685037 ],
+						"w" : [ 1024 ]
 					}
 ,
 					"text" : "autopattr",
@@ -3623,7 +3623,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3741,7 +3741,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5935,7 +5935,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6270,7 +6270,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "pm[1]",
+							"parameter_longname" : "pm",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_shortname" : "pm",
@@ -6365,7 +6365,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "bm[1]",
+							"parameter_longname" : "bm",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "bm",
@@ -6434,7 +6434,7 @@
 							"parameter_initial" : [ 50.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "bias[1]",
+							"parameter_longname" : "bias",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "bias",
 							"parameter_type" : 0,
@@ -6501,7 +6501,7 @@
 							"parameter_initial" : [ 60.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "freq[1]",
+							"parameter_longname" : "freq",
 							"parameter_mmax" : 1020.0,
 							"parameter_shortname" : "freq",
 							"parameter_type" : 0,
@@ -6583,7 +6583,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 672.0, 298.0, 30.0, 30.0 ]
 				}
 
@@ -6667,12 +6667,11 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "polarizer[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
-							"parameter_shortname" : "Morph",
+							"parameter_shortname" : "morph",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -6684,7 +6683,7 @@
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"tribordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"trioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "polarizer"
+					"varname" : "morph"
 				}
 
 			}
