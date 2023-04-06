@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 371.0, 390.0, 775.0, 764.0 ],
+		"rect" : [ 381.0, 230.0, 775.0, 764.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -116,9 +116,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "mute",
+							"parameter_longname" : "mute[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -141,7 +141,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 214.0, 54.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"gain" : [ -13.783601462145157 ],
+						"gain" : [ 1.358251099645088 ],
 						"mute" : [ 0.0 ]
 					}
 ,
@@ -217,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 585.0, 270.0, 57.0, 22.0 ],
+					"patching_rect" : [ 595.5, 270.0, 57.0, 22.0 ],
 					"text" : "route set"
 				}
 
@@ -250,15 +250,17 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-41",
-					"items" : [ "None", ",", "Acer V277U (NVIDIA High Definition Audio)", ",", "Speakers (Realtek(R) Audio)", ",", "Speakers (Realtek(R) Audio)", ",", "Digital Audio (S/PDIF) (Realtek(R) Audio)", ",", "Speakers (Realtek(R) Audio)" ],
+					"items" : [ "None", ",", "BlackHole 2ch", ",", "Haut-parleurs MacBook Pro", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "Appareil agrégé", ",", "Appareil à sorties multiples" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 470.0, 357.237304999999992, 194.0, 20.0 ],
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 595.5, 350.237304999999992, 194.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 37.0, 86.0, 20.0 ]
+					"presentation_rect" : [ 7.0, 37.0, 86.0, 20.0 ],
+					"varname" : "umenu"
 				}
 
 			}
@@ -285,7 +287,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 423.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 59.5, 39.0, 39.0 ]
+					"presentation_rect" : [ 7.0, 59.5, 39.0, 39.0 ],
+					"varname" : "ezdac~"
 				}
 
 			}
@@ -327,7 +330,7 @@
 					"patching_rect" : [ 387.0, 127.0, 136.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 17.0, 124.0, 18.0 ],
-					"text" : "tof-output~[1]",
+					"text" : "tof-output~[2]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -366,7 +369,7 @@
 							"parameter_initial" : [ -3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "gain",
+							"parameter_longname" : "gain[4]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "gain",
@@ -425,6 +428,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"order" : 0,
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
+					"source" : [ "obj-15", 1 ]
 				}
 
 			}
@@ -510,7 +529,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -518,7 +537,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-42", 0 ]
 				}
 
