@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1412.0, 437.0, 804.0, 907.0 ],
+		"rect" : [ 84.0, 384.0, 804.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,8 +117,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 858.0, 505.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"device" : [ 0 ],
-						"play" : [ 0 ]
+						"active" : [ 1 ],
+						"device" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
@@ -212,7 +212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.89285714285711, 100.5, 71.0, 17.0 ],
+					"patching_rect" : [ 290.89285714285711, 100.5, 72.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, -0.5, 53.0, 17.0 ],
 					"text" : "RENDER",
@@ -230,7 +230,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 380.0, 436.622893999999974, 72.0, 17.0 ],
+					"patching_rect" : [ 380.0, 436.622893999999974, 73.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 77.5, 54.0, 17.0 ],
 					"text" : "TEXTURE",
@@ -306,22 +306,22 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 125.0, 235.0, 69.5, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 52.5, 69.5, 21.0 ],
+					"presentation_rect" : [ 147.5, 52.5, 69.5, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "play[2]",
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "play",
+							"parameter_shortname" : "active",
 							"parameter_type" : 1
 						}
 
 					}
 ,
-					"text" : "play",
-					"texton" : "play",
+					"text" : "active",
+					"texton" : "active",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "play"
+					"varname" : "active"
 				}
 
 			}
@@ -491,7 +491,7 @@
 					"bgfillcolor_type" : "gradient",
 					"hint" : "Select an input device",
 					"id" : "obj-5",
-					"items" : "<empty>",
+					"items" : [ "0: NDI Video", ",", "1: Caméra FaceTime HD (intégrée)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -502,7 +502,7 @@
 					"presentation_rect" : [ 44.396468639373779, 34.5, 172.603531360626221, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "HD Pro Webcam C920", "OBS Virtual Camera" ],
+							"parameter_enum" : [ "0: NDI Video", "1: Caméra FaceTime HD (intégrée)" ],
 							"parameter_linknames" : 1,
 							"parameter_longname" : "device",
 							"parameter_mmax" : 1,

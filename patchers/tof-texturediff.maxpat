@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 453.0, 285.0, 971.0, 659.0 ],
+		"rect" : [ 156.0, 311.0, 971.0, 659.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.0, 242.0, 41.0, 22.0 ],
+					"patching_rect" : [ 401.654784999999947, 43.0, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -424,11 +424,10 @@
 					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 9.0,
 					"id" : "obj-17",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 488.154784999999947, 228.302246000000025, 29.0, 39.0 ],
+					"patching_rect" : [ 488.154784999999947, 228.302246000000025, 86.5, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.5, 0.0, 51.0, 17.0 ],
 					"text" : "TEXTURE",
@@ -446,7 +445,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 979.0, 81.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"threshold" : [ 0.248031496062992 ]
+						"threshold" : [ 0.5 ]
 					}
 ,
 					"text" : "autopattr",
@@ -461,7 +460,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.0, 200.0, 81.0, 22.0 ],
+					"patching_rect" : [ 401.654784999999947, 11.0, 81.0, 22.0 ],
 					"text" : "tof-isbpatcher"
 				}
 
@@ -475,7 +474,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 194.0, 47.5, 30.0, 30.0 ]
 				}
 
@@ -531,11 +530,11 @@
 					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 9.0,
 					"id" : "obj-7",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.154784999999947, 142.302246000000025, 29.0, 39.0 ],
+					"patching_rect" : [ 425.154784999999947, 142.302246000000025, 40.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 51.0, 17.0 ],
 					"text" : "TEXTURE",
@@ -551,11 +550,10 @@
 					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 9.0,
 					"id" : "obj-5",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.154784999999947, 183.0, 29.0, 28.0 ],
+					"patching_rect" : [ 555.154784999999947, 183.0, 54.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 90.0, 51.0, 17.0 ],
 					"text" : "MASK",
@@ -569,11 +567,10 @@
 					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 10.0,
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 567.0, 60.5, 64.0, 30.0 ],
+					"patching_rect" : [ 401.654784999999947, 74.0, 173.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 17.0, 115.0, 18.0 ],
 					"text" : "tof-texturediff[1]",
@@ -590,7 +587,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.654784999999947, 24.0, 576.0, 17.0 ],
+					"patching_rect" : [ 401.654784999999947, 74.0, 576.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 17.0, 115.5, 17.0 ],
 					"proportion" : 0.39,
@@ -635,7 +632,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 782.386206393390694, 33.726723360343954, 44.0, 9.0 ],
+					"patching_rect" : [ 401.654784999999947, 99.726723360343954, 44.0, 9.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 33.969033999999965, 115.5, 56.030966000000035 ],
 					"proportion" : 0.39,
