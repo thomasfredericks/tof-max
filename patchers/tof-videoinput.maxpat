@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 384.0, 804.0, 596.0 ],
+		"rect" : [ 87.0, 384.0, 1564.0, 798.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,36 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
+					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 573.0, 538.0, 96.0, 22.0 ],
-					"text" : "prepend append"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 862.0, 688.0, 58.0, 22.0 ],
-					"text" : "print cam"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 762.0, 688.0, 29.5, 22.0 ],
-					"text" : "t l l"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 767.0, 661.0, 62.0, 22.0 ],
+					"text" : "change -1"
 				}
 
 			}
@@ -78,21 +55,45 @@
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 636.0, 186.0, 85.0, 22.0 ],
-					"text" : "print loadbang"
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 451.0, 178.0, 32.0, 22.0 ],
+					"text" : "t b b"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
+					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 452.0, 177.0, 32.0, 22.0 ],
-					"text" : "t b b"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 704.0, 727.0, 29.5, 22.0 ],
+					"text" : "t l l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 716.0, 771.0, 107.0, 22.0 ],
+					"text" : "print tof-videoinput"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 579.0, 497.0, 96.0, 22.0 ],
+					"text" : "prepend append"
 				}
 
 			}
@@ -115,10 +116,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 858.0, 505.0, 56.0, 22.0 ],
+					"patching_rect" : [ 829.0, 459.5, 56.0, 22.0 ],
 					"restore" : 					{
 						"active" : [ 1 ],
-						"device" : [ 1 ]
+						"device" : [ "HD Pro Webcam C920" ]
 					}
 ,
 					"text" : "autopattr",
@@ -189,22 +190,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 10.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 964.5, 622.5, 43.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 35.5, 41.0, 18.0 ],
-					"text" : "device",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 9.0,
@@ -246,9 +231,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 551.0, 75.0, 171.0, 18.0 ],
+					"patching_rect" : [ 553.89285714285711, 75.0, 171.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 15.5, 221.727272868156433, 18.0 ],
+					"presentation_rect" : [ -1.0, 15.5, 177.0, 18.0 ],
 					"text" : "tof-videoinput[1]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -265,7 +250,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 551.0, 75.0, 576.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 16.5, 221.727272868156433, 17.0 ],
+					"presentation_rect" : [ -1.0, 16.5, 183.727272868156433, 17.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -306,11 +291,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 125.0, 235.0, 69.5, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.5, 52.5, 69.5, 21.0 ],
+					"presentation_rect" : [ 106.5, 52.5, 69.5, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "play[2]",
+							"parameter_longname" : "active",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "active",
 							"parameter_type" : 1
@@ -327,42 +312,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 560.25, 491.0, 137.0, 22.0 ],
-					"text" : "combine num \": \" device"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 564.25, 392.0, 29.5, 22.0 ],
-					"text" : "t b l"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 4,
-					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 560.25, 445.0, 61.0, 22.0 ],
-					"text" : "counter"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-27",
@@ -370,7 +319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.0, 216.0, 72.0, 23.0 ],
+					"patching_rect" : [ 464.0, 213.0, 72.0, 23.0 ],
 					"text" : "getvdevlist"
 				}
 
@@ -394,8 +343,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.166666666666686, 354.0, 104.0, 22.0 ],
-					"text" : "automatic 0, bang"
+					"patching_rect" : [ 140.166666666666686, 354.0, 117.0, 22.0 ],
+					"text" : "0, automatic 0, bang"
 				}
 
 			}
@@ -406,20 +355,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 303.833333333333371, 354.0, 71.0, 22.0 ],
-					"text" : "automatic 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.166666666666686, 419.0, 19.0, 22.0 ],
-					"text" : "t l"
+					"patching_rect" : [ 303.833333333333371, 354.0, 97.0, 22.0 ],
+					"text" : "0, 1, automatic 1"
 				}
 
 			}
@@ -461,7 +398,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 761.0, 733.5, 66.0, 22.0 ],
+					"patching_rect" : [ 767.0, 694.5, 66.0, 22.0 ],
 					"text" : "vdevice $1"
 				}
 
@@ -475,7 +412,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 566.5, 350.5, 25.0, 22.0 ],
+					"patching_rect" : [ 579.0, 459.5, 25.0, 22.0 ],
 					"text" : "iter"
 				}
 
@@ -491,18 +428,19 @@
 					"bgfillcolor_type" : "gradient",
 					"hint" : "Select an input device",
 					"id" : "obj-5",
-					"items" : [ "0: NDI Video", ",", "1: Caméra FaceTime HD (intégrée)" ],
+					"items" : [ "HD Pro Webcam C920", ",", "OBS Virtual Camera" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 767.0, 620.5, 195.5, 22.0 ],
+					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 44.396468639373779, 34.5, 172.603531360626221, 22.0 ],
+					"presentation_rect" : [ 3.396468639373779, 36.0, 172.603531360626221, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "0: NDI Video", "1: Caméra FaceTime HD (intégrée)" ],
+							"parameter_enum" : [ "HD Pro Webcam C920", "OBS Virtual Camera" ],
 							"parameter_linknames" : 1,
 							"parameter_longname" : "device",
 							"parameter_mmax" : 1,
@@ -529,7 +467,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 646.386206393390694, 25.5, 44.0, 9.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 16.5, 221.727272868156433, 61.0 ],
+					"presentation_rect" : [ -1.0, 16.5, 183.727272868156433, 61.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0
 				}
@@ -580,35 +518,35 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-23", 0 ]
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-21", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-24", 1 ]
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"source" : [ "obj-24", 0 ]
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -622,58 +560,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 2 ],
-					"source" : [ "obj-29", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 1,
-					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"order" : 0,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -694,22 +588,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-36", 1 ]
 				}
 
 			}
@@ -729,8 +609,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-7", 1 ]
 				}
 
 			}
@@ -738,13 +639,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 2 ],
-					"source" : [ "obj-8", 2 ]
 				}
 
 			}
