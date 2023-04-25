@@ -99,7 +99,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 78.0, 256.0, 198.727272868156433, 78.5 ],
+					"patching_rect" : [ 78.0, 256.0, 198.727272868156433, 95.5 ],
 					"varname" : "tof-spoutreceiver[1]",
 					"viewvisibility" : 1
 				}
@@ -122,7 +122,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-8::obj-10" : [ "flipx", "flipx", 0 ],
 			"obj-8::obj-13" : [ "sendername[1]", "sendername", 0 ],
+			"obj-8::obj-15" : [ "flipy", "flipy", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -132,17 +134,31 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-8::obj-10" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "flipx",
+					"parameter_modmode" : 0,
+					"parameter_shortname" : "flipx",
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-8::obj-15" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "flipy",
+					"parameter_modmode" : 0,
+					"parameter_shortname" : "flipy",
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "init[1]_20230425_1.maxsnap",
-				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "init_20230425.maxsnap",
 				"bootpath" : "~/OneDrive/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../Snapshots",
@@ -202,9 +218,18 @@
 			"snapshot" : 			{
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
-						"active[4]" : 0.0,
+						"flipx" : 0.0,
+						"flipy" : 1.0,
+						"lighting_enable[1]" : 0.0,
+						"rotx[1]" : 0.0,
+						"roty[1]" : 90.0,
+						"rotz[1]" : 0.0,
+						"scale[1]" : 3.903307086614185,
+						"smooth_shading[1]" : 1.0,
 						"blob" : 						{
-							"vdevice" : [ "OBS Virtual Camera" ]
+							"animrate[1]" : [ 0.36 ],
+							"file[1]" : [ "Seymour.dae" ],
+							"sendername[1]" : [ "kv2_color" ]
 						}
 
 					}
@@ -227,9 +252,18 @@
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"active[4]" : 0.0,
+									"flipx" : 0.0,
+									"flipy" : 1.0,
+									"lighting_enable[1]" : 0.0,
+									"rotx[1]" : 0.0,
+									"roty[1]" : 90.0,
+									"rotz[1]" : 0.0,
+									"scale[1]" : 3.903307086614185,
+									"smooth_shading[1]" : 1.0,
 									"blob" : 									{
-										"vdevice" : [ "OBS Virtual Camera" ]
+										"animrate[1]" : [ 0.36 ],
+										"file[1]" : [ "Seymour.dae" ],
+										"sendername[1]" : [ "kv2_color" ]
 									}
 
 								}
@@ -244,34 +278,6 @@
 							"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
 							"filepos" : -1,
 							"snapshotfileid" : "0e0192e8b543384b90c35d68d0a97452"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "init[1]",
-						"origin" : "tof-spoutreceiver.maxhelp",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"snapshot" : 						{
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"active[4]" : 0.0
-								}
-
-							}
-
-						}
-,
-						"fileref" : 						{
-							"name" : "init[1]",
-							"filename" : "init[1]_20230425_1.maxsnap",
-							"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "c3804f885ba1bbf16c5a745ff4aeb5fc"
 						}
 
 					}
