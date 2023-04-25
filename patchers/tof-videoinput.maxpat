@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 674.0, 134.0, 1440.0, 1137.0 ],
+		"rect" : [ 529.0, 154.0, 1440.0, 1137.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -475,6 +475,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgoncolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ],
+					"fontsize" : 10.0,
 					"id" : "obj-33",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -484,7 +486,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 130.0, 265.0, 69.5, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 106.5, 56.5, 69.5, 21.0 ],
+					"presentation_rect" : [ 117.5, 57.0, 58.5, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -498,7 +500,7 @@
 ,
 					"text" : "active",
 					"texton" : "active",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textoncolor" : [ 0.0, 1.0, 0.192156862745098, 1.0 ],
 					"varname" : "active"
 				}
 
@@ -620,6 +622,7 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
+					"fontsize" : 10.0,
 					"hint" : "Select an input device",
 					"id" : "obj-5",
 					"items" : [ "HD Pro Webcam C920", ",", "OBS Virtual Camera" ],
@@ -628,10 +631,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 918.0, 781.5, 195.5, 22.0 ],
+					"patching_rect" : [ 918.0, 781.5, 195.5, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 3.396468639373779, 36.0, 167.603531360626221, 22.0 ],
+					"presentation_rect" : [ 3.396468639373779, 35.0, 172.603531360626221, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "umenu"
 				}
