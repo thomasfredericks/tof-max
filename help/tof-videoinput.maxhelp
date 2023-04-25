@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1104.0, 455.0, 769.0, 506.0 ],
+		"rect" : [ 753.0, 670.0, 769.0, 506.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -122,8 +122,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-33" : [ "play[2]", "play", 0 ],
-			"obj-5::obj-5" : [ "device", "device", 0 ],
+			"obj-5::obj-13" : [ "vdevice", "vdevice", 0 ],
+			"obj-5::obj-33" : [ "active", "active", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -134,10 +134,12 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-5::obj-5" : 				{
+				"obj-5::obj-33" : 				{
 					"parameter_invisible" : 0,
-					"parameter_linknames" : 1,
+					"parameter_longname" : "active",
 					"parameter_modmode" : 0,
+					"parameter_shortname" : "active",
+					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
 
@@ -195,8 +197,11 @@
 			"snapshot" : 			{
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
-						"device" : 0.0,
-						"play[2]" : 1.0
+						"active" : 1.0,
+						"blob" : 						{
+							"vdevice" : [ "OBS Virtual Camera" ]
+						}
+
 					}
 
 				}
@@ -217,8 +222,11 @@
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"device" : 0.0,
-									"play[2]" : 1.0
+									"active" : 1.0,
+									"blob" : 									{
+										"vdevice" : [ "OBS Virtual Camera" ]
+									}
+
 								}
 
 							}

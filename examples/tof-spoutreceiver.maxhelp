@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1496.0, 384.0, 640.0, 480.0 ],
+		"rect" : [ 1336.0, 273.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 78.0, 336.0, 59.0, 22.0 ],
+					"patching_rect" : [ 78.0, 371.0, 59.0, 22.0 ],
 					"text" : "jit.gl.layer"
 				}
 
@@ -220,16 +220,8 @@
 					"parameter_values" : 					{
 						"flipx" : 0.0,
 						"flipy" : 1.0,
-						"lighting_enable[1]" : 0.0,
-						"rotx[1]" : 0.0,
-						"roty[1]" : 90.0,
-						"rotz[1]" : 0.0,
-						"scale[1]" : 3.903307086614185,
-						"smooth_shading[1]" : 1.0,
 						"blob" : 						{
-							"animrate[1]" : [ 0.36 ],
-							"file[1]" : [ "Seymour.dae" ],
-							"sendername[1]" : [ "kv2_color" ]
+							"sendername[1]" : [ "kv2_cutout" ]
 						}
 
 					}
@@ -254,16 +246,8 @@
 								"parameter_values" : 								{
 									"flipx" : 0.0,
 									"flipy" : 1.0,
-									"lighting_enable[1]" : 0.0,
-									"rotx[1]" : 0.0,
-									"roty[1]" : 90.0,
-									"rotz[1]" : 0.0,
-									"scale[1]" : 3.903307086614185,
-									"smooth_shading[1]" : 1.0,
 									"blob" : 									{
-										"animrate[1]" : [ 0.36 ],
-										"file[1]" : [ "Seymour.dae" ],
-										"sendername[1]" : [ "kv2_color" ]
+										"sendername[1]" : [ "kv2_cutout" ]
 									}
 
 								}
