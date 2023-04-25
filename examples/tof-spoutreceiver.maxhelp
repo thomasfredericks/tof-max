@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 78.0, 387.0, 59.0, 22.0 ],
+					"patching_rect" : [ 78.0, 336.0, 59.0, 22.0 ],
 					"text" : "jit.gl.layer"
 				}
 
@@ -99,7 +99,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 78.0, 256.0, 198.727272868156433, 95.5 ],
+					"patching_rect" : [ 78.0, 211.0, 198.727272868156433, 95.5 ],
 					"varname" : "tof-spoutreceiver[1]",
 					"viewvisibility" : 1
 				}

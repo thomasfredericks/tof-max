@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 832.0, 491.0, 1367.0, 832.0 ],
+		"rect" : [ 649.0, 504.0, 1410.0, 832.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "flipy",
+							"parameter_longname" : "flipy[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "flipy",
 							"parameter_type" : 2
@@ -106,7 +106,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "flipx",
+							"parameter_longname" : "flipx[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "flipx",
 							"parameter_type" : 2
@@ -705,7 +705,7 @@
 					"patching_rect" : [ 1062.166666666666742, 346.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"flipx" : [ 0.0 ],
-						"flipy" : [ 0.0 ]
+						"flipy" : [ 1.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -789,9 +789,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 791.622893999999974, 73.0, 17.0 ],
+					"patching_rect" : [ 326.0, 791.0, 73.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 78.0, 54.0, 17.0 ],
+					"presentation_rect" : [ -1.0, 77.0, 54.0, 17.0 ],
 					"text" : "TEXTURE",
 					"textjustification" : 1
 				}
