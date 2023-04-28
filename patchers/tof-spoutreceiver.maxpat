@@ -130,7 +130,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "flipy",
+							"parameter_longname" : "flipy[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "flipy",
 							"parameter_type" : 2
@@ -159,7 +159,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "flipx",
+							"parameter_longname" : "flipx[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "flipx",
 							"parameter_type" : 2
@@ -667,7 +667,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1006.25, 852.5, 189.0, 22.0 ],
-					"restore" : [ "kv2_color" ],
+					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -913,8 +913,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.5, 386.0, 115.0, 22.0 ],
-					"text" : "getavailablesenders",
+					"patching_rect" : [ 361.5, 386.0, 169.0, 22.0 ],
+					"text" : "getname, getavailablesenders",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -941,11 +941,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 495.89285714285711, 506.636475000000019, 209.0, 22.0 ],
-					"text" : "route SpoutSender clear sendername"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 495.89285714285711, 506.636475000000019, 242.0, 22.0 ],
+					"text" : "route SpoutSender clear sendername name"
 				}
 
 			}
@@ -976,7 +976,7 @@
 					"fontsize" : 10.0,
 					"hint" : "Select an input device",
 					"id" : "obj-5",
-					"items" : [ "kv2_color", ",", "kv2_cutout" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1019,19 +1019,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 783.333333333333485, 822.5, 79.0, 22.0 ],
 					"text" : "setsymbol $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "texrotate",
-					"id" : "obj-8",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 479.5, 405.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1321,15 +1308,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"order" : 1,
 					"source" : [ "obj-9", 1 ]
 				}
 
@@ -1344,8 +1323,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"order" : 0,
-					"source" : [ "obj-9", 1 ]
+					"source" : [ "obj-9", 3 ]
 				}
 
 			}
