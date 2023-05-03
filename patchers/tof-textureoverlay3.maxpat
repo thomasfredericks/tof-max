@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1045.0, 419.0, 981.0, 886.0 ],
+		"rect" : [ 360.0, 106.0, 981.0, 798.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -75,7 +75,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -549,7 +549,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1044.0, 131.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"layer1" : [ 1.0 ],
+						"layer1" : [ 0.015748031496063 ],
 						"layer2" : [ 1.0 ],
 						"layer3" : [ 0.0 ]
 					}
@@ -621,9 +621,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 808.654784999999947, 432.0, 27.0, 54.0 ],
+					"patching_rect" : [ 808.654784999999947, 432.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.5, 37.0, 27.0, 54.0 ],
+					"presentation_rect" : [ 192.5, 37.0, 27.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -653,7 +653,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "layer3",
+							"parameter_longname" : "layer3[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "layer3",
 							"parameter_type" : 0,
@@ -663,7 +663,6 @@
 					}
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"triangle" : 1,
 					"tricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "layer3"
 				}
@@ -683,9 +682,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 671.654784999999947, 411.0, 27.0, 54.0 ],
+					"patching_rect" : [ 671.654784999999947, 411.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.5, 37.0, 27.0, 54.0 ],
+					"presentation_rect" : [ 133.5, 37.0, 27.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -715,7 +714,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "layer2",
+							"parameter_longname" : "layer2[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "layer2",
 							"parameter_type" : 0,
@@ -725,7 +724,6 @@
 					}
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"triangle" : 1,
 					"tricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "layer2"
 				}
@@ -739,7 +737,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 819.386206393390694, 112.0, 30.0, 30.0 ]
 				}
 
@@ -784,9 +782,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 485.0, 438.0, 27.0, 54.0 ],
+					"patching_rect" : [ 485.0, 438.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.0, 37.0, 27.0, 54.0 ],
+					"presentation_rect" : [ 74.0, 37.0, 27.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -816,7 +814,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "layer1",
+							"parameter_longname" : "layer1[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "layer1",
 							"parameter_type" : 0,
@@ -826,7 +824,6 @@
 					}
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"triangle" : 1,
 					"tricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "layer1"
 				}
@@ -923,7 +920,7 @@
 					"patching_rect" : [ 248.654784999999947, 46.0, 289.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 17.0, 231.5, 18.0 ],
-					"text" : "tof-textureoverlay4[1]",
+					"text" : "tof-textureoverlay3[1]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

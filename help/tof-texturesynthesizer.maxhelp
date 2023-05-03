@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 199.0, 388.0, 1242.0, 532.0 ],
+		"rect" : [ 100.0, 100.0, 1120.0, 854.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,49 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-14",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "tof-renderbang.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 338.833336561918259, 95.0, 133.166663438081741, 34.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-12",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "tof-texturesynthesizer.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
+					"patching_rect" : [ 338.833336561918259, 410.0, 361.437390708332941, 168.0 ],
+					"varname" : "tof-texturesynthesizer[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -150,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 161.0, 372.0, 59.0, 22.0 ],
+					"patching_rect" : [ 59.833336561918259, 765.0, 59.0, 22.0 ],
 					"text" : "jit.gl.layer"
 				}
 
@@ -162,7 +205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 115.0, 120.0, 111.0, 22.0 ],
+					"patching_rect" : [ 82.0, 66.0, 111.0, 22.0 ],
 					"text" : "jit.world @enable 1"
 				}
 
@@ -183,8 +226,51 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 161.0, 173.0, 361.437390708332941, 168.0 ],
+					"patching_rect" : [ 59.833336561918259, 169.0, 361.437390708332941, 168.0 ],
 					"varname" : "tof-texturesynthesizer[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-7",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "tof-renderbang.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 59.833336561918259, 121.0, 133.166663438081741, 34.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-11",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "tof-texturemath.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
+					"patching_rect" : [ 59.833336561918259, 602.0, 169.5, 131.030966000000035 ],
+					"varname" : "tof-texturemath[1]",
 					"viewvisibility" : 1
 				}
 
@@ -194,6 +280,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -220,20 +327,37 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-2", 1 ]
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-5", 0 ]
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-11::obj-10" : [ "c[1]", "c", 0 ],
+			"obj-11::obj-17" : [ "alpha[1]", "alpha", 0 ],
+			"obj-11::obj-34" : [ "a[1]", "a", 0 ],
+			"obj-11::obj-9" : [ "b[1]", "b", 0 ],
+			"obj-12::obj-100" : [ "bias[1]", "bias", 0 ],
+			"obj-12::obj-101" : [ "freq[1]", "freq", 0 ],
+			"obj-12::obj-102" : [ "morph", "morph", 0 ],
+			"obj-12::obj-105" : [ "fm[1]", "fm", 0 ],
+			"obj-12::obj-16" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-12::obj-30" : [ "angle", "angle", 0 ],
+			"obj-12::obj-46" : [ "h", "h", 0 ],
+			"obj-12::obj-47" : [ "w", "w", 0 ],
+			"obj-12::obj-65" : [ "shape", "gradient", 0 ],
+			"obj-12::obj-71" : [ "phase[1]", "phase", 0 ],
+			"obj-12::obj-90" : [ "speed", "speed", 0 ],
+			"obj-12::obj-95" : [ "pm[1]", "pm", 0 ],
+			"obj-12::obj-98" : [ "bm[1]", "bm", 0 ],
 			"obj-5::obj-100" : [ "bias", "bias", 0 ],
 			"obj-5::obj-101" : [ "freq", "freq", 0 ],
 			"obj-5::obj-102" : [ "polarizer[1]", "morph", 0 ],
@@ -252,6 +376,46 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-11::obj-10" : 				{
+					"parameter_longname" : "c[1]"
+				}
+,
+				"obj-11::obj-34" : 				{
+					"parameter_longname" : "a[1]"
+				}
+,
+				"obj-11::obj-9" : 				{
+					"parameter_longname" : "b[1]"
+				}
+,
+				"obj-12::obj-100" : 				{
+					"parameter_longname" : "bias[1]"
+				}
+,
+				"obj-12::obj-101" : 				{
+					"parameter_longname" : "freq[1]"
+				}
+,
+				"obj-12::obj-105" : 				{
+					"parameter_longname" : "fm[1]"
+				}
+,
+				"obj-12::obj-16" : 				{
+					"parameter_longname" : "live.menu[2]"
+				}
+,
+				"obj-12::obj-71" : 				{
+					"parameter_longname" : "phase[1]"
+				}
+,
+				"obj-12::obj-95" : 				{
+					"parameter_longname" : "pm[1]"
+				}
+,
+				"obj-12::obj-98" : 				{
+					"parameter_longname" : "bm[1]"
+				}
+,
 				"obj-5::obj-100" : 				{
 					"parameter_longname" : "bias",
 					"parameter_shortname" : "bias"
@@ -315,16 +479,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "tof-glsl.differencemask.maxhelp[1].maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tof-glsl.differencemask.maxhelp[2].maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Snapshots",
+				"name" : "tof-glsl.differencemask.maxhelp_20230117.maxsnap",
+				"bootpath" : "~/Library/CloudStorage/OneDrive-Personnel/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Library/CloudStorage/OneDrive-Personnel/Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
@@ -344,6 +501,20 @@
 			}
 , 			{
 				"name" : "tof-isbpatcher.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-renderbang.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-texturemath.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/tof-max/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -370,20 +541,37 @@
 			"snapshot" : 			{
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
-						"angle[1]" : -76.535433070866191,
-						"bias" : 38.582677165354298,
-						"bm" : 1.0,
+						"a[1]" : 1.0,
+						"alpha[1]" : 1.0,
+						"angle" : -89.291338582677227,
+						"angle[1]" : 0.0,
+						"b[1]" : 1.0,
+						"bias" : 50.0,
+						"bias[1]" : 50.0,
+						"bm" : 0.0,
+						"bm[1]" : 0.0,
+						"c[1]" : 0.0,
 						"fm" : 2.0,
-						"freq" : 402.082917999185156,
-						"gradient" : 0.4999,
-						"live.menu[1]" : 1.44685039370079,
-						"phase" : -1.0,
-						"pm" : -0.456692913385822,
-						"polarizer[1]" : 1.0,
-						"speed[1]" : 1.259842519685037,
+						"fm[1]" : 2.0,
+						"freq" : 562.712839259027419,
+						"freq[1]" : 530.586855007059398,
+						"gradient" : 0.75,
+						"live.menu[1]" : 2.25,
+						"live.menu[2]" : 2.25,
+						"morph" : 0.023622047244094,
+						"phase" : 0.0,
+						"phase[1]" : -1.0,
+						"pm" : 0.0,
+						"pm[1]" : -0.456692913385822,
+						"polarizer[1]" : -0.023686178091708,
+						"shape" : 0.75,
+						"speed" : 0.0,
+						"speed[1]" : -1.574803149606298,
 						"blob" : 						{
+							"h" : [ 1024 ],
 							"number[5]" : [ 1024 ],
-							"number[7]" : [ 1024 ]
+							"number[7]" : [ 1024 ],
+							"w" : [ 1024 ]
 						}
 
 					}
@@ -393,12 +581,12 @@
 			}
 ,
 			"snapshotlist" : 			{
-				"current_snapshot" : 2,
+				"current_snapshot" : 0,
 				"entries" : [ 					{
 						"filetype" : "C74Snapshot",
 						"version" : 2,
 						"minorversion" : 0,
-						"name" : "tof-glsl.differencemask.maxhelp",
+						"name" : "init",
 						"origin" : "tof-texturesynthesizer.maxhelp",
 						"type" : "patcher",
 						"subtype" : "Undefined",
@@ -406,60 +594,37 @@
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"Amount" : 0.0,
-									"Bcolorize" : 2.0,
-									"Colorize" : 1.0,
-									"Distortion" : 1.0,
-									"Function" : 4.0,
-									"Gain" : 1.5,
-									"Gain[1]" : 0.0,
-									"Gain[2]" : 0.0,
-									"Gain[3]" : 0.0,
-									"Gain[4]" : 0.0,
-									"Gcolorize" : 1.0,
-									"H value" : 0.25,
-									"H value[1]" : 0.25,
-									"H value[2]" : 0.5,
-									"H value[3]" : 1.5,
-									"H value[4]" : 0.5,
-									"Jitter" : 0.5,
-									"Jitter[1]" : 0.5,
-									"Jitter[2]" : 0.5,
-									"Jitter[3]" : 0.5,
-									"Jitter[4]" : 0.0,
-									"Lacunarity" : 2.0,
-									"Lacunarity[1]" : 3.0,
-									"Lacunarity[2]" : 2.0,
-									"Lacunarity[3]" : 1.5,
-									"Lacunarity[4]" : 2.0,
-									"Offset" : 0.9,
-									"Offset[1]" : 0.25,
-									"Offset[2]" : 0.0,
-									"Offset[3]" : 1.5,
-									"Offset[4]" : 0.05,
-									"Rcolorize" : 0.0,
-									"Shading" : 0.5,
-									"Smoothing" : 64.0,
-									"X crackle" : 8.0,
-									"Y crackle" : 2.0,
-									"Z crackle" : 0.5,
-									"angle[1]" : -76.535433070866191,
-									"bias" : 38.582677165354298,
-									"bm" : 1.0,
+									"a[1]" : 1.0,
+									"alpha[1]" : 1.0,
+									"angle" : -89.291338582677227,
+									"angle[1]" : 0.0,
+									"b[1]" : 1.0,
+									"bias" : 50.0,
+									"bias[1]" : 50.0,
+									"bm" : 0.0,
+									"bm[1]" : 0.0,
+									"c[1]" : 0.0,
 									"fm" : 2.0,
-									"freq" : 402.082917999185156,
-									"gradient" : 0.984251968503937,
-									"phase" : -1.0,
-									"pm" : -0.456692913385822,
-									"speed[1]" : 1.259842519685037,
-									"Speed" : 0.440944881889764,
-									"Zoom hi" : 1.0,
-									"Zoom lo" : 1.0,
+									"fm[1]" : 2.0,
+									"freq" : 562.712839259027419,
+									"freq[1]" : 530.586855007059398,
+									"gradient" : 0.75,
+									"live.menu[1]" : 2.25,
+									"live.menu[2]" : 2.25,
+									"morph" : 0.023622047244094,
+									"phase" : 0.0,
+									"phase[1]" : -1.0,
+									"pm" : 0.0,
+									"pm[1]" : -0.456692913385822,
+									"polarizer[1]" : -0.023686178091708,
+									"shape" : 0.75,
+									"speed" : 0.0,
+									"speed[1]" : -1.574803149606298,
 									"blob" : 									{
+										"h" : [ 1024 ],
 										"number[5]" : [ 1024 ],
 										"number[7]" : [ 1024 ],
-										"textbutton[3]" : [ 1 ],
-										"Zoom range[2]" : [ 1 ]
+										"w" : [ 1024 ]
 									}
 
 								}
@@ -469,97 +634,11 @@
 						}
 ,
 						"fileref" : 						{
-							"name" : "tof-glsl.differencemask.maxhelp",
+							"name" : "init",
 							"filename" : "tof-glsl.differencemask.maxhelp_20230117.maxsnap",
 							"filepath" : "~/OneDrive/Documents/Max 8/Snapshots",
 							"filepos" : -1,
-							"snapshotfileid" : "c26eddbe13a665f915640f4317034776"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "tof-glsl.differencemask.maxhelp[1]",
-						"origin" : "tof-texturesynthesizer.maxhelp",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"snapshot" : 						{
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"angle[1]" : -76.535433070866191,
-									"bias" : 38.582677165354298,
-									"bm" : 1.0,
-									"fm" : 2.0,
-									"freq" : 402.082917999185156,
-									"gradient" : 0.4999,
-									"live.menu[1]" : 1.44685039370079,
-									"phase" : -1.0,
-									"pm" : -0.456692913385822,
-									"polarizer[1]" : -1.0,
-									"speed[1]" : 1.259842519685037,
-									"blob" : 									{
-										"number[5]" : [ 1024 ],
-										"number[7]" : [ 1024 ]
-									}
-
-								}
-
-							}
-
-						}
-,
-						"fileref" : 						{
-							"name" : "tof-glsl.differencemask.maxhelp[1]",
-							"filename" : "tof-glsl.differencemask.maxhelp[1].maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "eafc1e6c5e42596f27755983d6fb15e5"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "tof-glsl.differencemask.maxhelp[2]",
-						"origin" : "tof-texturesynthesizer.maxhelp",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"snapshot" : 						{
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"angle[1]" : -76.535433070866191,
-									"bias" : 38.582677165354298,
-									"bm" : 1.0,
-									"fm" : 2.0,
-									"freq" : 402.082917999185156,
-									"gradient" : 0.4999,
-									"live.menu[1]" : 1.44685039370079,
-									"phase" : -1.0,
-									"pm" : -0.456692913385822,
-									"polarizer[1]" : 1.0,
-									"speed[1]" : 1.259842519685037,
-									"blob" : 									{
-										"number[5]" : [ 1024 ],
-										"number[7]" : [ 1024 ]
-									}
-
-								}
-
-							}
-
-						}
-,
-						"fileref" : 						{
-							"name" : "tof-glsl.differencemask.maxhelp[2]",
-							"filename" : "tof-glsl.differencemask.maxhelp[2].maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "51aff6294bbd395caba658a5bd273a08"
+							"snapshotfileid" : "d2d91658fc2ee6f33a492ea369f3fcf3"
 						}
 
 					}
