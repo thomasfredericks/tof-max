@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 416.0, 363.0, 1166.0, 911.0 ],
+		"rect" : [ 416.0, 363.0, 1192.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -318,7 +318,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "averaged Blue values ( (0. - 1.0)",
+					"comment" : "maximum of rgb values  (0.-1.0)",
 					"id" : "obj-15",
 					"index" : 4,
 					"maxclass" : "outlet",
@@ -343,7 +343,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "relative",
+							"parameter_longname" : "relative[1]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "relative",
 							"parameter_type" : 2
@@ -672,7 +672,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "averaged Blue values ( (0. - 1.0)",
+					"comment" : "averaged blue value (0.-1.0)",
 					"id" : "obj-41",
 					"index" : 3,
 					"maxclass" : "outlet",
@@ -684,7 +684,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "averaged Green values ( (0. - 1.0)",
+					"comment" : "averaged green value (0.-1.0)",
 					"id" : "obj-40",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -696,7 +696,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "averaged Red values ( (0. - 1.0)",
+					"comment" : "averaged red value (0.-1.0)",
 					"id" : "obj-39",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -756,7 +756,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.0, 65.0, 25.0, 25.0 ]
 				}
 
