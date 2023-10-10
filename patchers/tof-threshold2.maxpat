@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1311.0, 939.0 ],
+		"rect" : [ 42.0, 85.0, 1311.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -165,7 +165,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "lo-delay[1]",
+							"parameter_longname" : "lo-delay",
 							"parameter_shortname" : "lo-delay",
 							"parameter_type" : 3
 						}
@@ -210,7 +210,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "hi-delay[1]",
+							"parameter_longname" : "hi-delay",
 							"parameter_shortname" : "hi-delay",
 							"parameter_type" : 3
 						}
@@ -246,7 +246,7 @@
 					"patching_rect" : [ 682.0, 349.0, 131.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 62.0, 39.0, 18.0 ],
-					"text" : "(<=) lo",
+					"text" : "lo (<=)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -450,7 +450,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -550,7 +550,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -562,7 +562,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -895,7 +895,40 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-18" : [ "lo", "lo", 0 ],
+			"obj-30" : [ "hi-delay", "hi-delay", 0 ],
+			"obj-32" : [ "lo-delay", "lo-delay", 0 ],
+			"obj-9" : [ "hi", "hi", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "tof-isbpatcher.js",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tof-isbpatcher.maxpat",
+				"bootpath" : "~/OneDrive/Documents/Max 8/Packages/tof-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
