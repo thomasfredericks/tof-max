@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 1,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1156.0, 326.0, 651.0, 549.0 ],
+		"rect" : [ 184.0, 206.0, 651.0, 549.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,8 +58,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -102,7 +102,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 103.0, 37.0, 62.0, 30.0 ],
+									"patching_rect" : [ 103.0, 37.0, 62.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 17.0, 242.727272868156433, 18.0 ],
 									"text" : "tof-serial V1.1",
@@ -137,7 +137,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 172.154784999999947, 84.0, 29.0, 28.0 ],
+									"patching_rect" : [ 172.154784999999947, 84.0, 29.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 0.0, 70.0, 17.0 ],
 									"text" : "Serial (*)",
@@ -156,7 +156,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 65.154784999999947, 97.0, 33.0, 28.0 ],
+									"patching_rect" : [ 65.154784999999947, 97.0, 34.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 88.0, 70.0, 17.0 ],
 									"text" : "Serial (*)",
@@ -680,7 +680,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-19",
-									"items" : [ "(serial", "port)", ",", "COM3" ],
+									"items" : [ "(serial", "port)" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1226,14 +1226,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 564.0, 278.0, 589.0, 551.0 ],
+						"rect" : [ 564.0, 277.0, 589.0, 551.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1349,18 +1349,18 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : 9.0,
 									"hidden" : 1,
 									"id" : "obj-35",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 797.0, 283.726723360343954, 198.0, 34.0 ],
+									"patching_rect" : [ 797.0, 283.726723360343954, 192.0, 27.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ -0.5, 17.0, 247.0, 34.0 ],
+									"presentation_rect" : [ -0.5, 17.0, 244.0, 17.0 ],
 									"text" : "INSTALL CNMAT PACKAGE AND REOPEN PATCHER",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -1376,8 +1376,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 1,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1509,7 +1509,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 172.154784999999947, 84.0, 29.0, 50.0 ],
+									"patching_rect" : [ 172.154784999999947, 84.0, 29.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 0.0, 70.0, 17.0 ],
 									"text" : "Serial (SLIP)",
@@ -1539,10 +1539,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 103.0, 37.0, 68.0, 30.0 ],
+									"patching_rect" : [ 103.0, 37.0, 68.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 17.0, 244.0, 18.0 ],
-									"text" : "tof-slip-to-message V1.0",
+									"text" : "tof-slip-to-message V1.1",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1574,9 +1574,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 65.154784999999947, 97.0, 31.0, 39.0 ],
+									"patching_rect" : [ 65.154784999999947, 97.0, 31.0, 37.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -0.5, 51.0, 70.0, 17.0 ],
+									"presentation_rect" : [ 0.0, 34.0, 70.0, 17.0 ],
 									"text" : "Max Message",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textjustification" : 1
@@ -1593,24 +1593,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 251.0, 8.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 0.0,
-									"background" : 1,
-									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-									"id" : "obj-17",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 395.0, 222.726723360343954, 44.0, 9.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ -0.5, 29.0, 242.727272868156433, 22.0 ],
-									"proportion" : 0.39,
-									"rounded" : 0
 								}
 
 							}
@@ -1688,7 +1670,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 60.0, 363.0, 243.0, 68.0 ],
+					"patching_rect" : [ 60.0, 374.0, 241.0, 52.0 ],
 					"varname" : "serial[3]",
 					"viewvisibility" : 1
 				}
@@ -1714,14 +1696,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 564.0, 278.0, 1040.0, 551.0 ],
+						"rect" : [ 142.0, 233.0, 1040.0, 551.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1837,18 +1819,19 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 0,
+									"fontsize" : 9.0,
 									"hidden" : 1,
 									"id" : "obj-35",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 797.0, 283.726723360343954, 198.0, 34.0 ],
+									"patching_rect" : [ 797.0, 283.726723360343954, 153.0, 27.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ -0.5, 17.0, 247.0, 34.0 ],
+									"presentation_rect" : [ -0.5, 17.0, 244.0, 17.0 ],
 									"text" : "INSTALL CNMAT PACKAGE AND REOPEN PATCHER",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -1864,8 +1847,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 1,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2081,9 +2064,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 172.154784999999947, 84.0, 29.0, 50.0 ],
+									"patching_rect" : [ 172.154784999999947, 84.0, 29.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -0.5, 51.0, 70.0, 17.0 ],
+									"presentation_rect" : [ 0.0, 34.0, 70.0, 17.0 ],
 									"text" : "Serial (SLIP)",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 1
@@ -2111,10 +2094,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 103.0, 37.0, 68.0, 30.0 ],
+									"patching_rect" : [ 103.0, 37.0, 68.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 17.0, 244.0, 18.0 ],
-									"text" : "tof-message-to-slip V1.0",
+									"text" : "tof-message-to-slip V1.1",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -2146,7 +2129,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 65.154784999999947, 97.0, 31.0, 39.0 ],
+									"patching_rect" : [ 65.154784999999947, 97.0, 31.0, 37.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 0.0, 70.0, 17.0 ],
 									"text" : "Max Message",
@@ -2165,24 +2148,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 251.0, 8.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 0.0,
-									"background" : 1,
-									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-									"id" : "obj-17",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 395.0, 222.726723360343954, 44.0, 9.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ -0.5, 29.0, 242.727272868156433, 22.0 ],
-									"proportion" : 0.39,
-									"rounded" : 0
 								}
 
 							}
@@ -2260,7 +2225,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 60.0, 170.5, 243.0, 68.0 ],
+					"patching_rect" : [ 60.0, 170.5, 241.0, 51.0 ],
 					"varname" : "serial[1]",
 					"viewvisibility" : 1
 				}
@@ -2370,7 +2335,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 283.0, 179.0, 43.0 ],
+					"patching_rect" : [ 304.0, 283.0, 179.0, 42.0 ],
 					"text" : "Don't forget to set the proper baud and port.",
 					"textcolor" : [ 0.792156862745098, 0.0, 0.0, 1.0 ]
 				}
