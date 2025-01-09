@@ -65,7 +65,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 77.0, 1934.0, 1281.0 ],
+						"rect" : [ 34.0, 85.0, 1934.0, 1265.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -490,7 +490,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 0.0, 0.576470588235294, 1.0 ],
+									"bgcolor" : [ 0.886274509803922, 0.635294117647059, 0.415686274509804, 1.0 ],
 									"fontname" : "Ableton Sans Bold",
 									"fontsize" : 9.0,
 									"id" : "obj-9",
@@ -500,8 +500,8 @@
 									"patching_rect" : [ 715.75, 590.0, 66.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 314.0, 98.0, 51.0, 17.0 ],
-									"text" : "midievent",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"text" : "Midievent",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textjustification" : 2
 								}
 
@@ -879,7 +879,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 1.0, 0.0, 0.576470588235294, 1.0 ],
+									"bgcolor" : [ 0.886274509803922, 0.635294117647059, 0.415686274509804, 1.0 ],
 									"fontname" : "Ableton Sans Bold",
 									"fontsize" : 9.0,
 									"id" : "obj-8",
@@ -890,8 +890,8 @@
 									"patching_rect" : [ 280.75, 570.883911000000012, 48.0, 39.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 97.0, 101.0, 17.0 ],
-									"text" : "pitch velocity (0-127)",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"text" : "Pitch Velocity (0-127)",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
