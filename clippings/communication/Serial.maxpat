@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 1,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 333.0, 331.0, 532.0, 309.0 ],
+		"rect" : [ 333.0, 331.0, 488.0, 289.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,14 +58,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 247.0, 131.0, 1151.0, 877.0 ],
+						"rect" : [ 774.0, 355.0, 1151.0, 877.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -105,7 +105,7 @@
 									"patching_rect" : [ 103.0, 37.0, 62.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 17.0, 242.727272868156433, 18.0 ],
-									"text" : "tof-serial V1.1",
+									"text" : "tof-serial V1.11",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -156,7 +156,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 65.154784999999947, 97.0, 33.0, 28.0 ],
+									"patching_rect" : [ 65.154784999999947, 97.0, 34.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.5, 88.0, 70.0, 17.0 ],
 									"text" : "Serial (*)",
@@ -220,6 +220,7 @@
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "live.text[1]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.text[1]",
 											"parameter_type" : 2
 										}
@@ -248,6 +249,7 @@
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "live.text",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
 										}
@@ -289,6 +291,7 @@
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "live.button[1]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.button",
 											"parameter_type" : 2
 										}
@@ -316,6 +319,7 @@
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "live.button",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.button",
 											"parameter_type" : 2
 										}
@@ -622,7 +626,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-22",
-									"items" : [ "(baud)", ",", 300, ",", 1200, ",", 2400, ",", 4800, ",", 9600, ",", 14400, ",", 19200, ",", 28800, ",", 38400, ",", 57600, ",", 115200, ",", 250000, ",", 500000, ",", 1000000, ",", 2000000 ],
+									"items" : [ "(baud)", ",", 300, ",", 1200, ",", 2400, ",", 4800, ",", 9600, ",", 14400, ",", 19200, ",", 28800, ",", 31250, ",", 38400, ",", 57600, ",", 115200, ",", 250000, ",", 500000, ",", 1000000, ",", 2000000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
